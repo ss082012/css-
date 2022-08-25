@@ -1,0 +1,55 @@
+body{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.a{
+  color:blue;
+  font-weight: bolder;
+}
+
+h1{
+  margin-left: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.b{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+p {
+  font-size: 50px;
+  position: absolute;
+  top:185px;
+  font-weight: bold;
+}
+
+.c{
+  width: 800px;
+  height: 150px;
+  background: blue;
+  position: relative;
+  top: 300px;
+}
+
+img{
+  position: absolute;
+  top: -300px;
+  left:650px;
+  }
